@@ -1,0 +1,114 @@
+/* centers, changes font and color of title */
+.pageHeader {
+    display: flex;
+    justify-content: center;
+    color: rgb(191, 250, 228);
+}
+
+/* creates a background for the title to visually separate from messy photos 
+and ensures the background is just behind the text*/
+.pageHeader__h1 {
+    background-color: rgb(144, 28, 129);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px
+
+}
+
+/* -------------------------------------------------- */
+
+.fish__header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: hotpink;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+}
+
+#fish__h1{
+    background-color: bisque;
+}
+
+
+.allInfo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.fishDisplay {
+    display: flex;
+    align-self: flex-start;
+    max-width:1000px;
+}
+
+.aside {
+    align-self: flex-start;
+}
+/* stylizes fish panel  */
+.fishList {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    justify-content: space-evenly;
+    color: hotpink;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fish-card {
+    margin: 2em
+}
+/* scales down fish images */
+.fish__image {
+    width: 150px;
+    object-fit: scale-down;
+}
+
+  
+  /* Style the button and place it in the middle of the container/image */
+.btn {
+    background-color: lightcoral;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+.btn:hover {
+    background-color: rgb(243, 203, 101);
+  }
+  
+.location {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* stylizes tips & locations panel */
+.locationDisplay {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: bisque;
+    flex-basis: 30%;
+    color: hotpink;
+    padding: 5px;
+    margin: 2em;
+}
+
+.tip-card {
+    text-align: justify;
+}
+/* stylizes fish care panel */
+.tipDisplay {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: bisque;
+    flex-basis: 30%;
+    color: hotpink;
+    padding: 5px;
+    margin: 2em;
+}
+
+
+/* adds repeating photo as the background */
+.body {
+    background-image: url("https://i.pinimg.com/originals/06/22/50/062250b0d8a088b784b65e257c8f98f6.png");
+    background-repeat: repeat;
+  }
